@@ -16,5 +16,6 @@
 
     docker environment and testnet endpoint for the smart contract to interface with.
 
+---
 
 This project is MIT licensed.
