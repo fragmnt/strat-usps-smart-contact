@@ -4,7 +4,7 @@ using Stratis.SmartContract;
 
 public class ShippingWatch : SmartContract {
     public struct data {};
-    private const string AppName = "ShipFast";
+    private const string AppName = "ShipX";
 
     public void className(type value) {}
 };

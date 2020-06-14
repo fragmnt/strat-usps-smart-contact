@@ -18,4 +18,6 @@
 
 ---
 
-This project is MIT licensed.
+This project is MIT licensed. 
+
+The USPS web tools API portal was used for the logistic service component of the smart contract: https://www.usps.com/business/web-tools-apis/. 
