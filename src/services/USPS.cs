@@ -26,7 +26,13 @@ namespace USPSClient {
         
         private const string shippingApiEndpoint = "/shippingapi.dll?API=Verify&XML=";
 
-        static async Task<Address> GetAnAddress(string path) {
+        // Class Interfaces
+        static void ShowPackage(Package package) {
+            Console.WriteLine($"Tracking number: {package.TrackingNumber}");
+        }
+
+        // API Calls
+        static async Task<Address> GetAddress(string path) {
             Address address = null;
             return address;
         }
@@ -38,7 +44,7 @@ namespace USPSClient {
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(headerType));
 
             try {
-                await GetAnAddress("/");
+                await GetAddress("/");
             } catch (Exception err) {
                 Console.WriteLine(err.Message);
             }
