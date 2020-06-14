@@ -1,6 +1,10 @@
 <img src="./assets/shipx__banner.png" width="760px" />
 
-### ShipX
+### ShipX: blockchain logistics monitoring for the USPS
+
+True traceability and blockchain-enhanced monitoring will help streamline the technological processes behind the USPS, the big government behemoth awaiting innovation and change through Stratis.
+
+###### Folder Tree:
 
 - ./assets
 
