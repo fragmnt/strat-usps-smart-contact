@@ -6,19 +6,19 @@ True traceability and blockchain-enhanced monitoring will help streamline the te
 
 ###### Folder Tree:
 
-- ./assets
+- `./assets`
 
-- ./pkg
+- `./pkg`
 
     reactjs ui to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`.
 
-- ./src
+- `./src`
 
     c# smart contract built for the Stratis platform, integrated w/ the USPS API
 
     * xunit, moq for testing
 
-- ./net
+- `./net`
 
     docker environment and testnet endpoint for the smart contract to interface with.
 
