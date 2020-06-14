@@ -9,11 +9,13 @@
 </svelte:head>
 
 
-<main>
-	<nav>
-		<h1>{siteName}</h1>
+<main id="app">
+	<nav class="navbar navbar-light bg-light">
+  		<span class="navbar-brand mb-0 h1">Navbar</span>
 	</nav>
-	Hello.
+	<div class="container-fluid">
+  		<!-- Content here -->
+	</div>
 </main>
 
 <style>
