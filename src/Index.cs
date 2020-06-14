@@ -6,5 +6,7 @@ public class ShippingWatch : SmartContract {
     public struct data {};
     private const string AppName = "ShipX";
 
-    public void className(type value) {}
+    public void className(type value) {
+        
+    }
 };
