@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj": {}
+    "C:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj": {
+    "C:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "c:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj",
+        "projectPath": "C:\\Users\\Owner\\stratis-usps-contract\\src\\src.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Owner\\stratis-usps-contract\\src\\obj\\",
+        "outputPath": "C:\\Users\\Owner\\stratis-usps-contract\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Stratis.SmartContracts": {
               "target": "Package",
               "version": "[1.1.0, )"

@@ -18,7 +18,7 @@ namespace USPSClient {
     }
     class Api {
 
-        static HttpClient client = HttpClient();
+        static HttpClient client = new HttpClient();
         private const string uspsBase = "https://secure.shippingapis.com";
         private const string mthv = "application/json";
 
@@ -27,22 +27,23 @@ namespace USPSClient {
         private const string shippingApiEndpoint = "/shippingapi.dll?API=Verify&XML=";
 
         static async Task<Address> GetAnAddress(string path) {
-            
+            Address address = null;
+            return address;
         }
 
-        static async Task Fetch(string[] baseUrl, string[] headerType) {
+        static async Task Fetch(string baseUrl, string headerType) {
 
             client.BaseAddress = new Uri(baseUrl);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(headerType));
 
             try {
-
+                await GetAnAddress("/");
             } catch (Exception err) {
                 Console.WriteLine(err.Message);
             }
 
-            Console.ReadLine("/");
+            Console.ReadLine();
         }
 
         static void Main() {

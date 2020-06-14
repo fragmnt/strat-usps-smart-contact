@@ -1,5 +1,8 @@
-using System;
 using Stratis.SmartContracts;
+
+/// <summary>
+/// A base, starter smart contract for the ShipX dApp
+/// </summary>
 
 [Deploy]
 
@@ -8,14 +11,13 @@ public class ShipXSmartContract : SmartContract {
 
         };
         private const string AppName = "ShipX";
-
+        private string Region {get;set; // get{return}
+        }
+        public string GetRegion() {
+            return this.Region;
+        }
 
         public ShipXSmartContract(ISmartContractState smartContractState) : base(smartContractState) {
-            
-        };
-
-        public void Main(string[] args) {
-            // method logic
-            Console.WriteLine("Hello World!");
+            this.Region = "any";
         }
 }
