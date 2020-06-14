@@ -5,11 +5,14 @@
 </script>
 
 <svelte:head>
-	<title>Monitor consumer logistics trends on the blockchain | {siteName}</title>
+	<title>Monitor consumer logistics trends on the blockchain • {siteName}</title>
 </svelte:head>
 
 
 <main>
+	<nav>
+		<h1>{siteName}</h1>
+	</nav>
 	Hello.
 </main>
 

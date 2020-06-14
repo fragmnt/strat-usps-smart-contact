@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n\texport let siteName;\r\n\t\r\n    //\timport Header from './components/Header.svelte';\r\n</script>\r\n\r\n<svelte:head>\r\n\t<title>Monitor consumer logistics trends on the blockchain • {siteName}</title>\r\n</svelte:head>\r\n\r\n\r\n<main>\r\n\t<nav>\r\n\t\t<h1>{siteName}</h1>\r\n\t</nav>\r\n\tHello.\r\n</main>\r\n\r\n<style>\r\n    main {\r\n\r\n    }\r\n\t@media (min-width: 640px) {\r\n\t\tmain {\r\n\t\t\tmax-width: none;\r\n\t\t}\r\n\t}\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAmBI,IAAI,cAAC,CAAC,AAEN,CAAC,AACJ,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,IAAI,cAAC,CAAC,AACL,SAAS,CAAE,IAAI,AAChB,CAAC,AACF,CAAC"
+}
