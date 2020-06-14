@@ -10,7 +10,7 @@ True traceability and blockchain-enhanced monitoring will help streamline the te
 
 - `./pkg`
 
-    React.js UI to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`.
+    React.js UI to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`. Login w/ your wallet name and wallet password.
 
 - `./src`
 
@@ -21,6 +21,10 @@ True traceability and blockchain-enhanced monitoring will help streamline the te
 - `./net`
 
     Docker environment bash script and testnet endpoint for the smart contract UI to interface with.
+
+- `./app`
+
+    This is a Svelte.js app currently in progress in the `app` dir. Download the "NativeScript Playground" app in your respective app store (iOS, Google Play) and scan the QR Code to demo it.
 
 ---
 
