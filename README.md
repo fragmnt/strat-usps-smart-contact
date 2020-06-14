@@ -4,7 +4,7 @@
 
 - ./pkg
 
-    reactjs ui to integrate with the testnet node and smart contract.
+    reactjs ui to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`.
 
 - ./src
 
