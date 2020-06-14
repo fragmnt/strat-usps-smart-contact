@@ -10,17 +10,17 @@ True traceability and blockchain-enhanced monitoring will help streamline the te
 
 - `./pkg`
 
-    reactjs ui to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`.
+    React.js UI to integrate with the testnet node api and smart contract. utilizes the `bitcore-lib` package as well as `web3`.
 
 - `./src`
 
-    c# smart contract built for the Stratis platform, integrated w/ the USPS API
+    C# smart contract built for the Stratis platform, integrated w/ the USPS API
 
     * xunit, moq for testing
 
 - `./net`
 
-    docker environment and testnet endpoint for the smart contract to interface with.
+    Docker environment and testnet endpoint for the smart contract to interface with.
 
 ---
 
