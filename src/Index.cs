@@ -2,11 +2,14 @@ using Stratis.SmartContract;
 
 [Deploy]
 
-public class ShippingWatch : SmartContract {
-    public struct data {};
-    private const string AppName = "ShipX";
+public class ShipX : SmartContract {
+        public struct data {
 
-    public void className(type value) {
-        
-    }
-};
+        };
+        private const string AppName = "ShipX";
+
+        public void Main(string[] args) {
+            // method logic
+            Console.WriteLine("Hello World!");
+        }
+}
