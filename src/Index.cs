@@ -1,12 +1,18 @@
-using Stratis.SmartContract;
+using System;
+using Stratis.SmartContracts;
 
 [Deploy]
 
-public class ShipX : SmartContract {
+public class ShipXSmartContract : SmartContract {
         public struct data {
 
         };
         private const string AppName = "ShipX";
+
+
+        public ShipXSmartContract(ISmartContractState smartContractState) : base(smartContractState) {
+            
+        };
 
         public void Main(string[] args) {
             // method logic
