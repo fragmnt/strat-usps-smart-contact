@@ -20,10 +20,10 @@ True traceability and blockchain-enhanced monitoring will help streamline the te
 
 - `./net`
 
-    Docker environment and testnet endpoint for the smart contract to interface with.
+    Docker environment bash script and testnet endpoint for the smart contract UI to interface with.
 
 ---
 
-This project is MIT licensed. 
+This project is **MIT** licensed. 
 
 The USPS web tools API portal was used for the logistic service component of the smart contract: https://www.usps.com/business/web-tools-apis/. More documentation can be read at: https://www.usps.com/business/web-tools-apis/address-information-api.htm
