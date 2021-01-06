@@ -18,7 +18,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bitcore-lib": "^8.20.4",
     "node-sass": "^4.14.1",
     "sass": "^1.26.8",
